@@ -1,0 +1,155 @@
+
+        
+  img{
+      height:5vh;
+      width:500px;
+     
+  }
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+  }
+
+  h1 {
+      color: #0074cc;
+  }
+  h4{
+      color:#0074cc;
+      
+  }
+
+  p {
+      max-width: 400px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #0074cc;
+  }
+
+  select, input {
+      width: 50%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border: 1px solid #0074cc;
+      border-radius: 5px;
+      background-color: #fff;
+      color: #333;
+  }
+
+  button {
+      padding: 10px 20px;
+      background-color: #0074cc;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+      background-color: #00548c;
+  }
+
+  #result {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #0074cc;
+  }
+
+  #advice {
+      margin-top: 20px;
+      max-width: 400px;
+      text-align: center;
+      color: #333;
+  }
+
+  #products {
+      margin-top: 20px;
+      max-width: 400px;
+      text-align: center;
+      font-style: italic;
+      color: #555;
+  }
+
+  #imageContainer {
+      margin-top: 20px;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+  }
+
+  
+  #contactForms {
+      margin-top: 20px;
+     text-align:center;
+      justify-content: space-around;
+      width: 80%;
+  }
+
+  .formContainer {
+      max-width: 800px;
+      margin: 80px auto;
+  }
+
+  .formContainer label,
+  .formContainer textarea,
+  .formContainer input {
+      width: 100%;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+  }
+
+  .formContainer textarea {
+      height: 100px;
+  }
+  .button{
+      width:100%;
+  }
+  .footer{
+      margin-top:50px;
+  }
+  #resultImage {
+      margin-top: 20px;
+      display: none; /* 初めは非表示 */
+  }
+
+  #resultImage img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .skin{
+      height:auto;
+      width:300px;
+      
+  }
+  label, select, input {
+      margin-bottom: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+@media(max-width: 768px ){
+
+}

@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>肌悩み診断アプリ</title>
+</head>
+<body>
+    <div id="imageContainer">
+       
+    </div>
+
+    
+
+   
+    <img src="./22855746.jpg" alt="Beautiful Skin Image">
+    <h1>肌悩み診断アプリ</h1>
+    <p>以下の質問にお答えいただき、肌悩みを診断します。</p>
+
+    
+
+    <label for="skinType">1. 肌質:</label>
+    <select id="skinType">
+        <option value="normal">普通肌</option>
+        <option value="oily">脂性肌</option>
+        <option value="dry">乾燥肌</option>
+        <option value="sensitive">敏感肌</option>
+        <option value="half">混合肌</option>
+    </select>
+
+    <label>2.気になる肌悩み：</label>
+    <div>
+        <input type="checkbox" name="skinIssues" value="wrinkles"> しわ
+        <input type="checkbox" name="skinIssues" value="darkSpots"> しみ
+        <input type="checkbox" name="skinIssues" value="puffiness"> むくみ
+        <input type="checkbox" name="skinIssues" value="largePores"> 毛穴
+        <input type="checkbox" name="skinIssues" value="redness"> 赤み
+    </div>
+
+    <label>3.ニキビができやすい箇所：</label>
+    <div>
+        <input type="checkbox" name="acneLocation" value="forehead"> おでこ
+        <input type="checkbox" name="acneLocation" value="nose"> 鼻
+        <input type="checkbox" name="acneLocation" value="cheeks"> 頬
+        <input type="checkbox" name="acneLocation" value="facialOutline"> 顔まわり
+        <input type="checkbox" name="acneLocation" value="chin"> あご
+        <input type="checkbox" name="acneLocation" value="temples"> こめかみ
+        <input type="checkbox" name="acneLocation" value="mouth"> 口元
+    </div>
+    <label for="budget">4. 一ヶ月の化粧品予算:</label>
+    <select id="budget">
+        <option value="below5000">5000円以下</option>
+        <option value="below10000">5000~10000円</option>
+        <option value="above10000"> 10000円以上</option>
+    </select>
+
+    <button id="submitBtn">診断する</button>
+
+    <div id="resultImage">
+        <div id="result"></div>
+        <h4>場所別ニキビの原因 </h4>
+        <img class="skin" id="diagnosisImage" src="./skin.jpg" alt="Diagnosis Result Image">
+    </div>
+
+   
+    <div id="advice"></div>
+    <div id="products"></div>
+    <div id="contactForms">
+        <!-- コメントフォーム -->
+        <div class="formContainer">
+            <h2>コメントフォーム</h2>
+            <form id="commentForm">
+                <label for="commentName">ニックネーム:</label>
+                <input type="text" id="commentName" name="commentName" required>
+
+                <label for="commentMessage">コメント:</label>
+                <textarea id="commentMessage" name="commentMessage" required></textarea>
+
+                <button type="submit" class="button">コメントする</button>
+            </form></div>
+
+            <!-- 問い合わせフォーム -->
+            <div class="formContainer">
+                <h2>問い合わせフォーム</h2>
+                <h4>ご相談個別にお答えします！</h4>
+                <form id="inquiryForm">
+                    <label for="inquiryName">ニックネーム:</label>
+                    <input type="text" id="inquiryName" name="inquiryName" required>
+    
+                    <label for="inquiryEmail">メールアドレス:</label>
+                    <input type="email" id="inquiryEmail" name="inquiryEmail" required>
+    
+                    <label for="inquiryMessage">問い合わせ内容:</label>
+                    <textarea id="inquiryMessage" name="inquiryMessage" required></textarea>
+    
+                    <button type="submit" class="button">送信する</button>
+                </form>
+            </div>
+            </div> 
+         <div class="footer">Copyright © 2023 Yui Tsubakiyama</div>
+    <script src="script.js"></script>
+   
+   
+</head>
+<body>
+   
+
+  
+ 
+</body>
+</html>
+
