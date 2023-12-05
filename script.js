@@ -1,4 +1,4 @@
-
+    
   document.getElementById("submitBtn").addEventListener("click", function() {
     // 質問に対する回答を取得
     const skinType = document.getElementById("skinType").value;
